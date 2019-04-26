@@ -1,4 +1,4 @@
-# MIL_noise_filter
+# MIL Noise Filter
 Filter algorithm for noise reduction in multiple-instance classification problems
 
 In contrasts to regular classification problems, in which each example has a unique description, in multiple-instance classification problems each example has many descriptions. Noisy data deteriorate classifiers performance in multiple-instance classification as it does in regular classification problems. Multiple-instance data may have noise at two different levels: noisy instances inside the bag and noisy bags in the training set. Here we implemented an algorithm that filters noisy instances inside bags. 
